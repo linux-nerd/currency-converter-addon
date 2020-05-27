@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="currency-converter.css" />
+  </head>
+  <body>
+    <h1>Currency Converter</h1>
+    <div>
+      <input type="text" placeholder="Enter amount" />
+    </div>
+    <div class="flex">
+      <label for="from-dd"
+        >From
+        <select name="from" id="from-dd">
+          <option value="USD">US Dollar</option>
+          <option value="INR">Indian Rupees</option>
+          <option value="SEK">Swedish Korona</option>
+          <option value="GBP">British Pound</option>
+        </select>
+      </label>
+      <label for="to-dd"
+        >To
+        <select name="to" id="to-dd">
+          <option value="USD">US Dollar</option>
+          <option value="INR">Indian Rupees</option>
+          <option value="SEK">Swedish Korona</option>
+          <option value="GBP">British Pound</option>
+        </select>
+      </label>
+    </div>
+    <button class="btn_currency">Convert Currency</button>
+    <h2 class="response"></h2>
+    <script src="currency-converter.js"></script>
+  </body>
+</html>
